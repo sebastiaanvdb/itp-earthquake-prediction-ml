@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyter = "~=1.0"
+tensorflow = "~=1.13"
+tensorflow-datasets = "~=1.0"
+numpy = "~=1.16"
+keras = "~=2.2"
+sklearn = "*"
+pathlib = "*"
+kaggle = "~=1.5"
+matplotlib = "*"
+seaborn = "*"
+scipy = "*"
+xgboost = "*"
+tqdm = "~=4.31"
+
+[requires]
+python_version = "3.6"
