@@ -57,6 +57,10 @@ init:
 	rm ./data/train.csv.zip
 	chmod -R 755 ./data/
 
+## Submit predictions (ARG=FILE) (ARG=MESSAGE)
+push_rnn:
+	kaggle kernels push -p ./kernel/rnn
+
 
 ## Submit predictions (ARG=FILE) (ARG=MESSAGE)
 submit:

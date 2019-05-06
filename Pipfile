@@ -8,7 +8,6 @@ verify_ssl = true
 [packages]
 jupyter = "~=1.0"
 tensorflow = "~=1.13"
-tensorflow-datasets = "~=1.0"
 numpy = "~=1.16"
 keras = "~=2.2"
 sklearn = "*"
